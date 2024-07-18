@@ -1,0 +1,104 @@
+body {
+    background-color: white;   
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 1.6em; } 
+    /*  CSS中的body {  } 表示 { }之间的所有CSS样式要应用于HTML <body> 元素中的内容
+        border 定义页面主体周围的边框是虚线和颜色
+        left 左
+        margin 定义页面外边距的距离，即内容与页面边界的距离
+        padding 在页面主体周围创建内边距  solid:实心
+     */
+ol{ 
+    margin:auto 910px;}
+    ol li{
+        list-style-type: decimal;
+        list-style-position: inside;}
+code {
+    background-color: green;
+    border-radius: 0px;
+    font-family: courier, monospace;
+    padding: 0 3px;}
+
+blockquote {text-align: center;}
+
+h1,h2,h3 {text-align: center;color:#007e7e;}
+h1 {font-size: 150%; margin-top: 20px;}
+h2 {font-size: 130%;}
+h3 {font-size: 110%;}
+
+p {font-family: sans-serif;}
+p.graduate {color: green;
+            font-size: 15px;}
+.home_p_background {border-color: black;
+                    border-width: 0px;
+                    border-style: solid;
+                    background-color: #a7c4ce74; 
+                    padding: 50px; 
+                    margin-top: 50px;
+                    margin-bottom: 150px;
+                    margin-left: 200px;
+                    margin-right: 200px;
+                    font-size: 25px;
+                    line-height: 1.6em;}
+                    /* background-image: url(./image/走廊.jpg) ;} */
+/* 添加导航栏 */
+.topbar-container{
+    background-color: whitesmoke;
+}
+
+.topbar-wrap{
+    width:1400px;
+    height:100px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    height:100px;
+    width: 100px;
+    float: left;
+    margin:auto 0px;
+}
+
+.nav{
+    float: right;
+    height: 100px;;
+}
+
+.nav li{
+    float: left;
+    width: 100px;
+    margin:0 10px;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav a:hover{
+    background: whitesmoke;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333; /* 默认链接颜色 */
+}
+
+.nav-link:hover {
+    color: darkorange; /* 鼠标悬停时的颜色 */
+}
+
+.nav-link:active {
+    color: #00f; /* 被点击时的颜色 */
+}
+/* 添加导航栏结束 */
+
